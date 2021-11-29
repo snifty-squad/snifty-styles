@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;700&display=swap');
+
+// Used in utility builders and also sets base font size.
+$spacer: 16;
+
+:root {
+    // Color
+    --color-black: rgb(0, 0, 0);
+    --color-white: rgb(255, 255, 255);
+
+    --color-dark-gray: #1F1F1F;
+    --color-gray: #313131;
+    --color-light-gray: #9A9A9A;
+
+    --color-green: #2DCE81;
+    --color-red: #E02E1E;
+    --color-pink: #FF00E5;
+    --color-gold: #FFC700;
+
+    --color-text-primary: var(--color-light-gray);
+    --color-background: var(var(--color-dark-gray));
+
+    // Text
+    --base-font-size: #{$spacer}px;
+    --font-family:  'Inconsolata', monospace;
+    --font-regular: 400;
+    --font-medium: 500;
+    --font-bold: 700;
+
+    // Border
+    --border-gray: solid 1px var(--color-light-gray);
+    --border-radius: 0.4rem;
+    --border-radius-less: 0.2rem;
+
+    // Sizes
+    --icon-large: 3rem;
+    --icon-medium: 1.5rem;
+    --icon-normal: 1rem;
+    --app-max-width: 65rem;
+
+    // Grid
+    --grid-gap: 1rem;
+
+    // Shadow
+    --box-shadow: -0.15rem -0.15rem 0.75rem 0.05rem rgb(0, 0, 0);
+}
+
+// Normalize
+@import "normalize";
+
+// Normalize
+@import "util";
