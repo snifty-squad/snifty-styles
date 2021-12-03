@@ -12,7 +12,7 @@
     overflow: hidden;
 
     &:hover {
-        transform: scale(1.1);
+        opacity: 0.8;
     }
 }
 
@@ -24,15 +24,16 @@
 .button-icon {
     padding: 0;
     background: transparent;
-
-    &:hover {
-        transform: translateY(-0.5rem);
-    }
 }
 
 .button-green {
     color: var(--color-black);
     background: var(--color-green);
+}
+
+.button-purple {
+    color: var(--color-white);
+    background: var(--color-purple);
 }
 
 .button-span {

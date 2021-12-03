@@ -7,15 +7,15 @@ $breakpoints: (
   ),
   'md': (
     min-width: 577px,
-    max-width: 768px,
+    // max-width: 768px,
   ),
   'lg': (
     min-width: 769px,
-    max-width: 992px,
+    // max-width: 992px,
   ),
   'xl': (
     min-width: 993px,
-    max-width: 1200px,
+    // max-width: 1200px,
   ),
   'xxl': (
     min-width: 1201px,
@@ -26,10 +26,10 @@ $breakpoints: (
 //       Button
 //       Available classes: button, button-primary, button-gray, button-green, button-green-outline 
 // --------------------
-@import 'util/button';
+@import  'util/button';
 
 // --------------------
-//       Media
+//       Images
 //       Available classes: Icons, images, videos.
 // --------------------
 @import 'util/media';
