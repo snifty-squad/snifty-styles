@@ -9,17 +9,19 @@ $spacer: 16;
     --color-white: rgb(255, 255, 255);
 
     --color-dark-gray: #1F1F1F;
-    --color-gray: #313131;
+    --color-gray: #3131318c;
+    --color-gray: #3131318c;
     --color-light-gray: #9A9A9A;
 
-    --color-green: #2DCE81;
+    --color-green: #737c78;
     --color-red: #E02E1E;
     --color-pink: #FF00E5;
     --color-gold: #FFC700;
     --color-purple: #5865f2;
+    --color-dark-green: #0e123a;
 
     --color-text-primary: var(--color-light-gray);
-    --color-background: var(var(--color-dark-gray));
+    --color-background: var(--color-dark-gray);
 
     // Text
     --base-font-size: #{$spacer}px;

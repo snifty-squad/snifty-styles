@@ -7,7 +7,7 @@ html,body {
     margin: 0 auto;
     font-family: var(--font-family);
     font-size: var(--base-font-size);
-    background: var(--color-dark-gray);
+    background: var(--color-background);
     color: var(--color-text-primary);
 }
 
@@ -27,6 +27,7 @@ a {
     font-family: var(--font-family);
     font-size: 1rem;
     font-weight: var(--font-regular);
+    color: var(--color-text-primary);
 }
 
 h1,
