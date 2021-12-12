@@ -1,11 +1,13 @@
 {
   "name": "@snifty-squad/styles",
   "version": "1.0.0",
-  "description": "",
+  "description": "Global styles used across snifty projects.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node ."
+    "build": "node .",
+    "version:major": "npm version major",
+    "version:minor": "npm version minor",
+    "version:patch": "npm version patch"
   },
   "repository": {
     "type": "git",
