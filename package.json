@@ -1,6 +1,6 @@
 {
   "name": "@snifty-squad/styles",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Global styles used across snifty projects.",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,7 @@
     "url": "git+https://github.com/snifty-squad/styles.git"
   },
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com/snifty-squad"
+    "registry": "https://npm.pkg.github.com/snifty-squad"
   },
   "author": "",
   "license": "ISC",
