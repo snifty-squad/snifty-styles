@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/snifty-squad/styles.git"
+    "url": "git+https://github.com/snifty-squad/snifty-styles.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/snifty-squad"

@@ -1,4 +1,4 @@
-name: build styles
+name: Build and publish styles.
 on:
   push:
     branches: ['main']
